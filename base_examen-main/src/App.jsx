@@ -1,6 +1,7 @@
 
 import './App.css'
 import Card from './components/Card'
+import Formulario from './components/Formu'
 
 function App() {
 
@@ -8,9 +9,8 @@ function App() {
   return (
     <>
       <div>
-        <h1>Carga de Estudiantes</h1>
-        <form></form>
-        <Card/>
+        <h1>Informacion del Estudiantes</h1>
+        <Formulario/>
       </div>
     </>
   )
